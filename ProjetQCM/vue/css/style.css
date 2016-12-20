@@ -1,0 +1,224 @@
+* {
+	padding : 0;
+	border : 0;
+	margin : 0;
+}
+/*************************** 5 blocs : header h2 milieu bas footer **************/
+
+header {
+	background-image : url("../images/noir.jpg");
+	padding : 5%;
+	background-size:15%;
+
+}
+
+h2 {
+	background-color:#CCCCCC;
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:4%;
+	color : blue;
+}
+
+#milieu {
+	background-color:#CCCCCC;
+	padding-top:2%;
+	padding-bottom:6%;
+	padding-left:25%;
+}
+
+#milieuEtu {
+	background-color:#CCCCCC;
+	padding-top:4%;
+	padding-bottom:4%;
+	padding-left:25%;
+}
+
+#milieu .etudiant {
+	padding-top:6%;
+	padding-bottom:10%;
+}
+
+#bas {
+	background-color:white;
+	padding-top:1%;
+	padding-bottom:2%;
+	padding-left:2%;
+}
+
+footer {
+	margin-bottom : 0px;
+	background-image : url("../images/noir.jpg");
+	padding : 5%;
+	background-size:15%;
+
+}
+
+/******************************** ensemble etudiant **************************/
+
+#ensemble h2{
+	margin-left:0%;
+	width:60%;
+}
+
+#ensemble h3 {
+	margin-top:3%;
+	margin-bottom:5%;
+	color : blue;
+}
+
+#ensemble input {
+	margin-left:25%;
+	border-color:blue;
+}
+
+
+/********************************* formulaire ****************************************/
+
+input {
+	border-width:1px;
+	border-color:#000000;
+	border-style:solid;
+	height:25px;
+	width:10em;
+	display:block;
+	margin-left:25em;
+}
+
+fieldset {
+	border-width:1.5px;
+	border-color:red;
+	border-style:solid;
+	background-color:orange;
+	margin-bottom:20px;
+	padding : 3%;
+	width:65%;
+}
+
+label {
+	display:inline-block;
+	width:12em;
+	float:left;
+	margin-left:15em;
+	text-align:center;	
+}
+
+legend {
+	margin-left:30px;
+}
+
+
+/********************************** listes déroulantes ************************************/
+
+select {
+	display:block;
+	border-width:3px;
+	border-color:brown;
+	border-style:solid;
+	height:50px;
+	width:150px;
+	display:block;
+	background-color:#EEEEEE;
+}
+
+.liste {
+	float:left;
+	margin-left:15%;
+	margin-bottom:3%;
+}
+
+ 
+/********************************** dans div bas ********************************/
+
+#bas .infos {
+	float:left;
+	margin-right:4%;
+	
+}
+/*
+#boutonbilan:hover{
+	background-color:black;
+	color:yellow;
+	transition: 1s;
+}
+*/
+
+
+
+/********************************** tableau page sélection questions professeur ********/
+
+
+
+#milieu table {
+	width:10%;
+	border-width:3px;
+	border-style:solid;
+	border-color:black;
+	border-radius: 10px;
+	margin-left:-25%;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+
+#milieu table tr th {
+	text-align:center;
+	background-color:#BBBBBB;
+	padding-right:150px;
+	padding-left:150px;
+}
+
+#milieu table tr td {
+	text-align:center;
+	padding-bottom:50px;
+}
+
+#milieu table tr .colonne1 {
+	margin-left:1%;
+	padding:1%;
+	padding-top:1%;
+}
+
+#milieu table tr .multiple { /* distinction question multiple */
+	border-width : 0.3em;
+	border-color : yellow;
+}
+
+#milieu table tr {
+  background-color:rgb(230,230,230);
+}
+
+/***************************** tableau page sélection réponses professeur ********/
+
+#milieu table tr td table {
+	margin-left:5%;
+	margin-top:5%;
+	padding-left:15%;
+	padding-right:15%;
+	
+}
+
+#milieu table tr td table td {
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	border-radius: 10px;
+	padding-left:6%;
+	padding-right:6%;
+}
+
+/**************************** tableau page bilan **********************************/
+
+#bilan {
+	background-color:red;
+}
+
+/*********************************** questions réponses étudiant **********************/
+
+article {
+	margin-top:5%;
+}
+
+.reponse {
+	margin-top:1%;
+	margin-bottom:1%;
+}
